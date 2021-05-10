@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Color Land</title>
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css2?family=Prompt&display=swap">
+    <link rel="stylesheet" type="text/css" href="css/master.css">
+    <link rel="stylesheet" type="text/css" href="css/swatch.css">
+</head>
+
+<body>
+    <header>
+        <h1>C O L O R - L A N D</h1>
+        <div class="topnav">
+            <a href="index.html">Home</a>
+            <a class="active" href="palette.html">Create Color Palettes</a>
+        </div>
+    </header>
+    <main>
+        <h2>Color Palette Creator</h2>
+        <div class="row">
+            <div class="column">
+                <p>Color palettes are used to help create themes or moods with colors. Use this tool to create some of your own.
+                    This isn't really the best way to enter colors, but maybe you will stumble on something good!
+                    I am quite fond of #123123 #456456 #abcabc #ffffff myself.
+                </p>
+                <button id="myBtn">Create Palette</button>
+            </div>
+            <div class="column" id="completed-palettes"></div>
+        </div>
+    </main>
+    <footer id="footer">
+        &copy; 2020 Spencer Lohrmann
+    </footer>
+    <!-- The Modal -->
+    <div id="myModal" class="modal">
+    <!-- Modal content -->
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <p>Enter hexademical numbers to create swatches for your color palette. Click save when you are done.</p>
+            <div>
+                <input type="text" id="hex-text" value="#">
+                <button type="button" id="swatch-button">Add Swatch to Palette</button>
+                <div id="colors-go-here">
+                </div>
+                <button id="save-palette">Save</button>
+            </div>
+        </div>
+    </div>
+    <script src="js/scripts.js"></script>
+</body>
+
+</html>

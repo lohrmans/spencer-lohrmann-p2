@@ -1,0 +1,12 @@
+From Project 1
+
+Website will explain what hex colors are and allow you to enter in numbers and show the result.
+Colors are entered in text area and reflected in the area below. 
+Users are informed about hex colors after seeing a beautiful rainbow. 
+Link to wikipedia included for truly inquisitive minds.
+
+Project 2
+
+Top nav bar navigates between main page and Color Palette Creator.
+Create Palette button shows modal box with text field and buttons to create color palettes.
+Saved palettes are displayed in right column. 

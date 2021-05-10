@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Color Land</title>
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css2?family=Prompt&display=swap">
+    <link rel="stylesheet" type="text/css" href="css/master.css">
+</head>
+<body>
+    <header>
+        <h1>C O L O R - L A N D</h1>
+        <div class="topnav">
+            <a class="active" href="index.html">Home</a>
+            <a href="palette.html">Create Color Palettes</a>
+        </div>
+    </header>
+    <main>
+        <figure>
+            <img src="images/rainbow.jpg" alt="rainbow" id="rainbow">
+            <figcaption>What even is color, really?</figcaption>
+        </figure>
+        <div>
+            <p> Merriam-Webster defines color as: "A phenomenon of light (such as red, brown, pink, or gray) or 
+                visual perception that enables one to differentiate otherwise identical objects." 
+                Using <span><a href="https://en.wikipedia.org/wiki/Hexadecimal">hexadecimal</a></span> numbers, 
+                we can choose from over 16 million colors! Enter a 6 digit hexadecimal number below to try it out.
+                <br>
+                <hr>
+                Please don't mess with the pound sign. 
+            </p>
+            <span>Enter color:</span>
+            <input type="text" id="color-picker" value="#">
+            <button type="button" id="color-button" onclick="changeColor()">Click Me!</button>
+        </div>
+        <div id="color-1" class="color"><br></div>
+        <div id="color-2" class="color"><br></div>
+        <div id="color-3" class="color"><br></div>
+        <div>
+            <a href="https://en.wikipedia.org/wiki/Color">More information about colors!</a>
+        </div>
+    </main>
+    <footer id="footer">
+        &copy; 2020 Spencer Lohrmann
+    </footer>
+    <script src="js/scripts.js"></script>
+</body>
+
+</html>
